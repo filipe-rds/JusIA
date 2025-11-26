@@ -1,0 +1,25 @@
+1 - Criar arquivo .env seguindo o .env.exemple
+
+2 - crie um ambiente de desenvolvimento venv 
+--> python -m venv venv
+
+3 - Mate o terminal e abra outro para ativar o venv automaticamente 
+
+4 - Se não ativar use: 
+--> .\venv\Scripts\activate     (Windows)                      
+--> source venv/bin/activate    (Linux)
+
+5 - Baixar Bibliotecas Python
+--> pip install -r requirements.txt
+
+6 - Execute o servidor flask
+--> python app.py 
+
+7 - Em outro terminal instale e execute o local tunnel na porta 5000 
+--> npm install -g localtunnel
+--> lt --port 5000 --subdomain <Especifique Seu URL>
+
+9 - Em outro terminal use o comando curl para setar o webhook 
+--> curl -X POST https://api.telegram.org/bot<BOT_TOKEN>/setWebhook?url=https://<Especifique Seu URL>/webhook 
+
+10 - Pronto, agora é só mandar uma mensagem no telegram para testar o bot
