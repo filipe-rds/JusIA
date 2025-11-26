@@ -25,7 +25,7 @@
 
 ## 📋 Visão Geral
 
-**JusIA** é um chatbot jurídico desenvolvido como avaliação das Sprints 7 e 8 do Programa Compass UOL - AI com AWS (Maio/2025). Utiliza arquitetura RAG (Retrieval Augmented Generation) para consultas sobre direito brasileiro via Telegram.
+**JusIA** é um chatbot jurídico desenvolvido como avaliação das Sprints 7 e 8 do Programa Compass UOL - Artificial Intelligence with AWS (Maio/2025). Utiliza arquitetura RAG (Retrieval Augmented Generation) para consultas sobre direito brasileiro via Telegram.
 
 **Stack Principal:** Python 3.12, Flask, LangChain, ChromaDB, AWS Bedrock (Titan), S3, EC2, API Gateway, CloudWatch, Docker
 
